@@ -1,0 +1,21 @@
+
+version: '4'
+
+services:
+db:
+image: mysql
+resatrt: always
+
+environment:
+MYSQL_ROOT_PASSWORD: toor
+MYSQL_DATABASE: smf
+MY_SQL_USER: karol
+MYSQL_PASSWORD: lorak
+
+forum:
+depends_on:
+-db
+image: wordpress:latest
+ports:
+-"8000:80"
+restart: always
