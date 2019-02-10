@@ -1,1 +1,1 @@
-print ("ludzie ludziom, zgotowali ten los /czyt. dockery")
+print ("ludzie ludziom, zgotowali ten los /czyt. cholerne dockery")
